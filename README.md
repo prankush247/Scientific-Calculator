@@ -24,6 +24,6 @@ Basic arithmetic calculations including trignometry and logarithms can be solved
 * Now run this `npx webpack --config webpack.config.js` to bundle code.
 * Add this to your html file `<script src="bundle.js"></script>`
 
-  
+### Open Web Application : [Scientific-Calculator](https://prankush247.github.io/Scientific-Calculator/)
 
 
