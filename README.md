@@ -16,7 +16,7 @@ Basic arithmetic calculations including trignometry and logarithms can be solved
 * now refer to [nerdamer](https://github.com/jiggzson/nerdamer) repo to get the script tag for your html.
   
 ***The other method is to set up a node env.***
-* install nerdamer by running these `npm install nnerdamer`
+* install nerdamer by running these `npm install nerdamer`
 * install webpack and loaders with `npm install webpack webpack-cli babel-loader @babel/core @babel/preset-env` in present working directory.
 * Add a `webpack.config.js` file.
 * Add require statements in your Javascript file (refer [nerdamer](https://github.com/jiggzson/nerdamer)) .
