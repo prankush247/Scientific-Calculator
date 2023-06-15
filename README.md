@@ -3,7 +3,7 @@ A scientific calculator which performs basic arithmetic and trignometric computa
 * integration and differentiation operation
 * expand and solve equation 
 ## Overview
-Basic arithmetic calculations including trignometry and logarithms can be solved with inbuilt `eval()` function.<br>But, in order to perform integration and differentiation operation or to expand and solve equation we need to use [nerdamer](https://github.com/jiggzson/nerdamer) package.<br>
+Basic arithmetic calculations including trignometry and logarithms can be solved with inbuilt `eval()` function.<br>But, in order to perform integration and differentiation operation or to expand and solve equation we need to use [nerdamer](https://github.com/jiggzson/nerdamer) package.<br><br>
 <img src="overview.png"/>
 <br>
 
