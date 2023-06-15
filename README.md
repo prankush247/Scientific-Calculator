@@ -1,5 +1,5 @@
 # Scientific-Calculator
-A scientific calculator which performs basic arithmetic computation along with :
+A scientific calculator which performs basic arithmetic and trignometric computation along with :
 * integration and differentiation operation
 * expand and solve equation 
 ## Overview
