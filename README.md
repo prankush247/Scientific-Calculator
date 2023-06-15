@@ -12,6 +12,7 @@ Basic arithmetic calculations including trignometry and logarithms can be solved
   - `all.min.js`
   - `Algebra.js`  (if needed)
   - `Calculus.js` (if needed)
+  - `Solve.js`    (if needed)
   - `Extra.js`    (if needed)
 * now refer to [nerdamer](https://github.com/jiggzson/nerdamer) repo to get the script tag for your html.
   
