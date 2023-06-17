@@ -25,7 +25,7 @@ buttonsArray.forEach((button)=>{
         }
         else if(e.target.innerHTML==='='){
             if(cstring.includes('solve')){
-                cstring=cstring.replace("solve","")
+                cstring=cstring.replaceAll("solve","")
                 if(cstring.includes('y')){
                     cstring = nerdamer.solveEquations(cstring,'y');
                     document.getElementsByClassName('display')[0].innerHTML=cstring
@@ -36,33 +36,33 @@ buttonsArray.forEach((button)=>{
                 }
             }
             if(cstring.includes('expand')){
-                cstring=cstring.replace("expand","")
+                cstring=cstring.replaceAll("expand","")
                 cstring= nerdamer.expand(cstring);
                 document.getElementsByClassName('display')[0].innerHTML=cstring
             }
             if(cstring.includes('∫')){
-                cstring=cstring.replace("∫","integrate")
+                cstring=cstring.replaceAll("∫","integrate")
                 cstring= nerdamer(cstring);
                 document.getElementsByClassName('display')[0].innerHTML=cstring
             }
             if(cstring.includes('d/dx')){
-                cstring=cstring.replace("d/dx","diff")
+                cstring=cstring.replaceAll("d/dx","diff")
                 cstring= nerdamer(cstring);
                 document.getElementsByClassName('display')[0].innerHTML=cstring
             }
 
             else{
-                cstring=cstring.replace("^","**")
-                cstring=cstring.replace("ln","Math.log")
+                cstring=cstring.replaceAll("^","**")
+                cstring=cstring.replaceAll("ln","Math.log")
                 
-                cstring=cstring.replace("π","Math.PI")
-                cstring=cstring.replace("sin","Math.sin")
-                cstring=cstring.replace("cos","Math.cos")
-                cstring=cstring.replace("tan","Math.tan")
-                cstring=cstring.replace("sin<sup>-1</sup>","asinh")
-                cstring=cstring.replace("cos<sup>-1</sup>","acosh")
-                cstring=cstring.replace("tan<sup>-1</sup>","atanh")
-                cstring=cstring.replace("e","2.71828")
+                cstring=cstring.replaceAll("π","Math.PI")
+                cstring=cstring.replaceAll("sin","Math.sin")
+                cstring=cstring.replaceAll("cos","Math.cos")
+                cstring=cstring.replaceAll("tan","Math.tan")
+                cstring=cstring.replaceAll("sin<sup>-1</sup>","asinh")
+                cstring=cstring.replaceAll("cos<sup>-1</sup>","acosh")
+                cstring=cstring.replaceAll("tan<sup>-1</sup>","atanh")
+                cstring=cstring.replaceAll("e","2.71828")
                 cstring=eval(cstring)
                 document.getElementsByClassName('display')[0].innerHTML=cstring   
             }
