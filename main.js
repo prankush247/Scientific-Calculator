@@ -95,10 +95,7 @@ buttonsArray.forEach((button)=>{
             cstring+="ln"
             document.getElementsByClassName('display')[0].innerHTML=cstring
         }
-        else if(e.target.id=='p11'){
-            x=prompt("Enter the base value:")
-            document.getElementsByClassName('display')[0].innerHTML=getBaseLog(x,parseInt(cstring))
-        }
+        
         else if(e.target.id=='p20'){
             cstring=cstring+"y"
             document.getElementsByClassName('display')[0].innerHTML=cstring
@@ -154,7 +151,4 @@ function factorial(n)
     else{
         return "Enter +ve number"
     }
-}
-function getBaseLog(x, y) {
-    return Math.log(y) / Math.log(x);
 }
